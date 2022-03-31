@@ -1,3 +1,6 @@
+@import "root";
+@import "layout";
+
 
 .layout-side .app-menu-content{
     border-top-right-radius: 30px;
@@ -245,6 +248,246 @@ text-align: center;
     .cont-icondetails2{
       margin-top: 10px;
       width: 30px;
+      }
+      
+      .sidebar-cont3{
+
+        background: #F1F9FF;
+        border-radius: 25px;
+        bottom: 0%;
+        Height: 110px;
+        text-align: left;
+        top: 87.4%;
+        Width: 290px;
+        background-image: url(/App/img/App.lotus.png);
+        background-position: bottom right;
+        background-repeat: no-repeat;
+
+
+      
+
+        .cont3-text{
+          margin-top: 25px;
+
+          .text-meditation{
+            color: #0E426F;
+            font-family: 'Raleway';
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            height: 21px;
+            line-height: 21px;
+            margin-left: 7.82%;
+            margin-top: 7%;
+          }
+
+          .text-coach{
+
+            color: #12548D;
+            font-family: 'Raleway';
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            height: 24px;
+            line-height: 24px;
+            margin-left: 20px;
+            
+          }
+        }
+      }
+
+      .sidebar-cont2{
+        background: #F1F9FF;
+        border-radius: 25px;
+        bottom: 0%;
+        Height: 164px;
+        top: 87.4%;
+        Width: 340px;
+        width: 9 col;
+
+
+        .cont2-text{
+          margin-top: 20px;
+
+          .text-health{
+
+            color: #0E426F;
+            font-family: 'Raleway';
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            height: 21px;
+            margin-left: 13.03%;
+            line-height: 21px;
+          }
+
+          .text-hours{
+
+            color: #12548D;
+            font-family: 'Raleway';
+            font-size: 14px;
+            font-style: normal;
+            height: 24px;
+            line-height: 24px;
+            margin-left: 13.03%;
+            margin-right: 19.19%;
+          }
+          .text-followup{
+            color: #009DDE;
+            flex: none;
+            flex-grow: 0;
+            font-family: 'Raleway';
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            height: 24px;
+            line-height: 24px;
+            margin-left: 16px;
+            margin-top: 8px;
+            position: static;
+            text-decoration: underline;
+            width: 67px;
+          }
+        }
+        
+      }
+
+      .sidebar-cont{
+        background: #1A79CB;
+        border-radius: 19px;
+        bottom: 42.83%;
+        height: 220px;
+        margin-bottom: 40px;
+        margin-right: 14.98%;
+        background-image: url(./App/img/App.medal.png);
+        background-position: right top;
+        background-repeat: no-repeat;
+
+        .cont-text{
+          margin-top: 20px;
+          
+          
+          
+          .text-team{
+            color: #FFFFFF;
+            font-family: 'Raleway';
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            height: 220px;
+            line-height: 21px;
+            margin-left: 30px;
+            margin-right: 49.19%;
+            margin-top: 20px;
+        }
+
+        .text-hours1{
+
+          color: #FFFFFF;
+          font-family: 'Raleway';
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          height: 24px;
+          line-height: 24px;
+          margin-left: 30px;
+        }
+
+        .cont-img{
+          text-align: center;
+          margin-top: 20px;
+        }
+          }
+          
+      }
+
+      .g3-cont{
+        background-color: #FFFFFF;
+        border-radius: 16px;
+        height: 150px;
+        margin-bottom: 30px;
+        width: 387px;
+
+        .text-title{
+          color: #85A5C2;
+          font-family: 'Raleway';
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          height: 48px;
+          margin-left: 12.78%;
+          margin-right: 30.72%;
+          text-align: center;
+        }
+
+        .cont-text-excellent{
+          margin-bottom: 20px;
+          margin-top: 10px;
+          text-align: left;
+         .text-excellent{
+
+          color: #59748A;
+          font-family: 'Raleway';
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 700;
+          height: 18px;
+          line-height: 18px;
+        } 
+        }
+
+        
+
+        .text-time{
+          color: #59748A;
+          font-family: 'Raleway';
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 700;
+          height: 21px;
+          line-height: 21px;
+
+
+        }
+
+        .text-category{  
+        color: #59748A;
+        font-family: 'Raleway';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        height: 24px;
+        line-height: 24px;
+
+        }
+
+      }
+
+
+      .text-details-money{
+
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      .text-details-view{
+        color: #7030A0;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: underline;
+
+
+      }
+
+      .text-details-title{
+
+        font-size: 14px;
+        font-weight: bold;
+      }
+
+      .detail-expression-bio{
+        font-size: 14px;
+        margin-top: 0px;
       }
       
     

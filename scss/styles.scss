@@ -2,48 +2,30 @@
 @import "layout";
 
 
-.layout-side .app-menu-content{
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    width: 120px;
-    transition: 03s;
-    text-align: center;
-    transition-duration: 0.2s;
-}
-
-
-.layout-side .app-menu-content.is-open{
-    width: 250px;
-    transition-property: width;
-    transition-duration: 0.4s;
-    text-align: center;
-}
-.layout-side .app-menu-content.is-open .OSFillParent {
-  margin-bottom: 10px;
-  margin-right: 10px;
-  margin-left: 20px;
-  margin-top: 20px;
+.layout-side .app-menu-content {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  width: 120px;
+  transition: 03s;
   text-align: center;
-  
-  }
-
-
-
-
-
-.layout-side .app-menu-content.is-open .textDisable{
-
-width: 250px;
-transition-property:width;
-transition-duration: 0.4s;
-visibility: visible;
-margin-left: 10px;
-
+  transition-duration: 0.2s;
 }
 
 
-.textDisable{
-visibility: hidden;
+.layout-side .app-menu-content.is-open {
+  width: 250px;
+  transition-property: width;
+  transition-duration: 0.4s;
+  text-align: center;
+}
+
+
+
+
+
+
+.textDisable {
+  visibility: hidden;
 }
 
 
@@ -53,456 +35,431 @@ visibility: hidden;
   grid-template-columns: auto auto auto auto;
   grid-gap: 10px;
 
- 
+
 }
 
 
-.list-item{
-    border-radius: 20px;
-    height: 500px;
+.list-item {
+  border-radius: 20px;
+  height: 500px;
 
-    .OSFillParent{
 
-        margin-bottom: 20px;
-        margin-top: 25px;
 
+
+
+  .bioexpression {
+
+    color: #6A7178;
+    margin-bottom: 15px;
+    width: 230px;
+    margin-left: -30px;
+  }
+
+  .btn {
+    background-color: #F7ECF9;
+    bottom: 10px;
+    margin-right: 0px;
+    padding: 0px;
+    position: absolute;
+    width: 70%;
+    margin-left: -10px;
+  }
+
+  .list-cont-email {
+    margin-bottom: 10px;
+    margin-left: -30px;
+
+    .icon {
+      color: #ADB5BD;
+      font-size: 16px;
+      height: 18px;
+      margin-right: 10px;
+      width: 18px;
     }
 
-    .bold{
 
-        color: #ADB5BD;
-        font-weight: normal;
-        margin-bottom: 20px;
+  }
+
+  .list-expression {
+
+    color: #ADB5BD;
+    margin-bottom: 10px;
+  }
+
+  .list-cont-job {
+
+    margin-left: -30px;
+
+    .icon {
+      color: #ADB5BD;
+      font-size: 16px;
+      margin-right: 10px;
+    }
+  }
+
+  .list-cont-email2 {
+    text-align: left;
+    margin-left: -30px;
+
+    .icon {
+      color: #ADB5BD;
+      font-size: 16px;
+      margin-right: 10px;
     }
 
-    .bioexpression{
 
-        color: #6A7178;
-        margin-bottom: 15px;
-        width: 230px;
-        margin-left: -30px;
+  }
+
+
+
+}
+
+
+.homepage {
+  margin-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 20px;
+  margin-top: 170px;
+  text-align: center;
+
+}
+
+.preferences {
+  margin-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 20px;
+  margin-top: 120px;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+
+
+
+
+.img-details {
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 0px;
+  width: 160px;
+}
+
+.email-adress-exp {
+  color: #ADB5BD;
+  font-size: 13px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.icon-details {
+  color: #ADB5BD;
+  font-size: 12px;
+  margin-left: -30;
+}
+
+.departament-name-exp {
+  color: #ADB5BD;
+  font-size: 13px;
+}
+
+.progress-bar-details {
+  text-align: right;
+}
+
+
+.employee-details {
+
+
+  height: 100px;
+  margin-top: 10px;
+  padding: 0px;
+  width: 360px;
+  margin-left: -40px;
+
+  .employeedetails-bio {
+
+    font-size: 8px;
+    text-align: left;
+    width: 750px;
+  }
+}
+
+.btn-primary-listemployee {
+  background-color: var(--color-primary);
+  border: var(--border-size-s) solid var(--color-primary);
+  color: var(--color-neutral-0);
+  border-radius: 100px;
+  border-width: 1px;
+  font-size: 18px;
+  height: 40px;
+  position: relative;
+  width: 180px;
+  margin-left: 90px;
+}
+
+.percentagem {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.cont-icondetails2 {
+  margin-top: 10px;
+  width: 30px;
+}
+
+.sidebar-cont3 {
+
+  background: #F1F9FF;
+  border-radius: 25px;
+  bottom: 0%;
+  height: 110px;
+  text-align: left;
+  width: 260px;
+  background-image: url(/App/img/App.lotus.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+
+
+
+
+  .cont3-text {
+    margin-top: 25px;
+
+    .text-meditation {
+      color: #0E426F;
+      font-family: 'Raleway';
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      height: 21px;
+      line-height: 21px;
+      margin-left: 7.82%;
+      margin-top: 7%;
     }
 
-    .btn {
-        background-color: #F7ECF9;
-      bottom: 10px;
-      margin-right: 0px;
-      padding: 0px;
-      position: absolute;
-      width: 70%;
-      margin-left: -10px;
-      }
-    .list-cont-email {
-        margin-bottom: 10px;
-        margin-left: -30px;
+    .text-coach {
 
-        .icon{
-            color: #ADB5BD;
-            font-size: 16px;
-            height: 18px;
-            margin-right: 10px;
-            width: 18px;
-        }
+      color: #12548D;
+      font-family: 'Raleway';
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      height: 24px;
+      line-height: 24px;
+      margin-left: 20px;
 
-
-        }
-        .list-expression{
-
-            color: #ADB5BD;
-            margin-bottom: 10px;
-        }
-
-        .list-cont-job{
-
-            margin-left: -30px;
-
-            .icon{
-                color: #ADB5BD;
-                font-size: 16px;
-                margin-right: 10px;
-            }
-        }
-
-        .list-cont-email2{
-            text-align: left;
-            margin-left: -30px;
-
-            .icon{
-                color: #ADB5BD;
-                font-size: 16px;
-                margin-right: 10px;
-            }
-
-
-        }
-
-
-
+    }
+  }
 }
 
+.sidebar-cont2 {
+  background: #F1F9FF;
+  border-radius: 25px;
+  bottom: 0%;
+  height: 164px;
+  width: 340px;
+  background-image: url(/App/img/App.caduceus.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  
 
-.homepage{
-margin-bottom: 10px;
-margin-right: 0px;
-margin-left: 20px;
-margin-top: 170px;
-text-align: center;
 
-}
-
-.preferences{
-margin-bottom: 10px;
-margin-right: 0px;
-margin-left: 20px;
-margin-top: 120px;
-position: fixed;
-bottom: 0;
-text-align: center;
-}
-
-.graphics1{
+  .cont2-text {
     margin-top: 20px;
-    text-align: center;
-    margin-left: -170px;
-    margin-right: -80px;
+
+    .text-health {
+
+      color: #0E426F;
+      font-family: 'Raleway';
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      height: 21px;
+      margin-left: 13.03%;
+      line-height: 21px;
+    }
+
+    .text-hours {
+
+      color: #12548D;
+      font-family: 'Raleway';
+      font-size: 14px;
+      font-style: normal;
+      height: 24px;
+      line-height: 24px;
+      margin-left: 13.03%;
+      margin-right: 19.19%;
+    }
+
+    .text-followup {
+      color: #009DDE;
+      flex: none;
+      flex-grow: 0;
+      font-family: 'Raleway';
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      height: 24px;
+      line-height: 24px;
+      margin-left: 16px;
+      margin-top: 8px;
+      position: static;
+      text-decoration: underline;
+      width: 67px;
+    }
   }
-  
-  .graphics2{
-    margin-top: 30px;
+
+}
+
+.sidebar-cont {
+  background: #1A79CB;
+  border-radius: 19px;
+  bottom: 42.83%;
+  height: 200px;
+  width: 260px;
+  margin-bottom: 40px;
+  margin-right: 14.98%;
+  background-image: url(/App/img/App.medal.png), url(/App/img/App.chevron.png), url(/App/img/App.Rectangle.png);
+  background-position: right top, bottom right, bottom right;
+  background-repeat: no-repeat,no-repeat,no-repeat,;
+
+  .cont-text {
+    margin-top: 20px;
+
+
+
+    .text-team {
+      color: #FFFFFF;
+      font-family: 'Raleway';
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      height: 220px;
+      line-height: 21px;
+      margin-left: 30px;
+      margin-right: 49.19%;
+      margin-top: 20px;
+    }
+
+    .text-hours1 {
+
+      color: #FFFFFF;
+      font-family: 'Raleway';
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      height: 24px;
+      line-height: 24px;
+      margin-left: 30px;
+    }
+
+    .cont-img {
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+
+}
+
+.g3-cont {
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  height: 150px;
+  margin-bottom: 30px;
+  width: 387px;
+
+  .text-title {
+    color: #85A5C2;
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    height: 48px;
+    margin-left: 12.78%;
+    margin-right: 30.72%;
     text-align: center;
-    margin-left: -100px;
+  }
+
+  .cont-text-excellent {
     margin-bottom: 20px;
-  }
-  
-  .graphics3{
-  margin-right: 70px;
-    text-align: center;
-    
-    
+    margin-top: 10px;
+    text-align: left;
+
+    .text-excellent {
+
+      color: #59748A;
+      font-family: 'Raleway';
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 700;
+      height: 18px;
+      line-height: 18px;
+    }
   }
 
 
-  .img-details {
-    border-radius: 25px;
-    border-style: solid;
-    border-width: 0px;
-    width: 160px;
-  }
-  
-   .email-adress-exp {
-    color: #ADB5BD;
-    font-size: 13px;
-    margin-right: 10px;
-    margin-left: 10px;
-  }
-  .icon-details {
-    color: #ADB5BD;
-    font-size: 12px;
-    margin-left: -30;
-  }
-  .departament-name-exp {
-    color: #ADB5BD;
-    font-size: 13px;
+
+  .text-time {
+    color: #59748A;
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    height: 21px;
+    line-height: 21px;
+
+
   }
 
-  .progress-bar-details{
-    text-align: right;
+  .text-category {
+    color: #59748A;
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    height: 24px;
+    line-height: 24px;
+
+  }
+
 }
 
 
-    .employee-details{
+.text-details-money {
+
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.text-details-view {
+  color: #7030A0;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: underline;
 
 
-        height: 100px;
-        margin-top: 10px;
-        padding: 0px;
-        width: 360px;
-        margin-left: -40px;
+}
 
-        .employeedetails-bio{
+.text-details-title {
 
-            font-size: 8px;
-            text-align: left;
-            width: 750px;
-        }
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.detail-expression-bio {
+  font-size: 14px;
+  margin-top: 0px;
+}
+
+
+.sideClose{
+
+  &.is-open{
+
+    .content{
+      width: calc(100% - 404px);
     }
-
-    .btn-primary-listemployee{
-      background-color:var(--color-primary);
-      border:var(--border-size-s) solid var(--color-primary);
-      color:var(--color-neutral-0);
-      border-radius: 100px;
-      border-width: 1px;
-      font-size: 18px;
-      height: 40px;
-      position: relative;
-      width: 180px;
-      margin-left: 90px;
-    }
-    
-    .percentagem{
-    font-size: 14px;
-    font-weight: bold;
-    }
-
-    .cont-icondetails2{
-      margin-top: 10px;
-      width: 30px;
-      }
-      
-      .sidebar-cont3{
-
-        background: #F1F9FF;
-        border-radius: 25px;
-        bottom: 0%;
-        Height: 110px;
-        text-align: left;
-        top: 87.4%;
-        Width: 290px;
-        background-image: url(/App/img/App.lotus.png);
-        background-position: bottom right;
-        background-repeat: no-repeat;
-
-
-      
-
-        .cont3-text{
-          margin-top: 25px;
-
-          .text-meditation{
-            color: #0E426F;
-            font-family: 'Raleway';
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 700;
-            height: 21px;
-            line-height: 21px;
-            margin-left: 7.82%;
-            margin-top: 7%;
-          }
-
-          .text-coach{
-
-            color: #12548D;
-            font-family: 'Raleway';
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 500;
-            height: 24px;
-            line-height: 24px;
-            margin-left: 20px;
-            
-          }
-        }
-      }
-
-      .sidebar-cont2{
-        background: #F1F9FF;
-        border-radius: 25px;
-        bottom: 0%;
-        Height: 164px;
-        top: 87.4%;
-        Width: 340px;
-        width: 9 col;
-
-
-        .cont2-text{
-          margin-top: 20px;
-
-          .text-health{
-
-            color: #0E426F;
-            font-family: 'Raleway';
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 700;
-            height: 21px;
-            margin-left: 13.03%;
-            line-height: 21px;
-          }
-
-          .text-hours{
-
-            color: #12548D;
-            font-family: 'Raleway';
-            font-size: 14px;
-            font-style: normal;
-            height: 24px;
-            line-height: 24px;
-            margin-left: 13.03%;
-            margin-right: 19.19%;
-          }
-          .text-followup{
-            color: #009DDE;
-            flex: none;
-            flex-grow: 0;
-            font-family: 'Raleway';
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 500;
-            height: 24px;
-            line-height: 24px;
-            margin-left: 16px;
-            margin-top: 8px;
-            position: static;
-            text-decoration: underline;
-            width: 67px;
-          }
-        }
-        
-      }
-
-      .sidebar-cont{
-        background: #1A79CB;
-        border-radius: 19px;
-        bottom: 42.83%;
-        height: 220px;
-        margin-bottom: 40px;
-        margin-right: 14.98%;
-        background-image: url(./App/img/App.medal.png);
-        background-position: right top;
-        background-repeat: no-repeat;
-
-        .cont-text{
-          margin-top: 20px;
-          
-          
-          
-          .text-team{
-            color: #FFFFFF;
-            font-family: 'Raleway';
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 700;
-            height: 220px;
-            line-height: 21px;
-            margin-left: 30px;
-            margin-right: 49.19%;
-            margin-top: 20px;
-        }
-
-        .text-hours1{
-
-          color: #FFFFFF;
-          font-family: 'Raleway';
-          font-size: 14px;
-          font-style: normal;
-          font-weight: 500;
-          height: 24px;
-          line-height: 24px;
-          margin-left: 30px;
-        }
-
-        .cont-img{
-          text-align: center;
-          margin-top: 20px;
-        }
-          }
-          
-      }
-
-      .g3-cont{
-        background-color: #FFFFFF;
-        border-radius: 16px;
-        height: 150px;
-        margin-bottom: 30px;
-        width: 387px;
-
-        .text-title{
-          color: #85A5C2;
-          font-family: 'Raleway';
-          font-size: 14px;
-          font-style: normal;
-          font-weight: 500;
-          height: 48px;
-          margin-left: 12.78%;
-          margin-right: 30.72%;
-          text-align: center;
-        }
-
-        .cont-text-excellent{
-          margin-bottom: 20px;
-          margin-top: 10px;
-          text-align: left;
-         .text-excellent{
-
-          color: #59748A;
-          font-family: 'Raleway';
-          font-size: 12px;
-          font-style: normal;
-          font-weight: 700;
-          height: 18px;
-          line-height: 18px;
-        } 
-        }
-
-        
-
-        .text-time{
-          color: #59748A;
-          font-family: 'Raleway';
-          font-size: 14px;
-          font-style: normal;
-          font-weight: 700;
-          height: 21px;
-          line-height: 21px;
-
-
-        }
-
-        .text-category{  
-        color: #59748A;
-        font-family: 'Raleway';
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 500;
-        height: 24px;
-        line-height: 24px;
-
-        }
-
-      }
-
-
-      .text-details-money{
-
-        font-size: 18px;
-        font-weight: bold;
-      }
-
-      .text-details-view{
-        color: #7030A0;
-        font-size: 18px;
-        font-weight: bold;
-        text-decoration: underline;
-
-
-      }
-
-      .text-details-title{
-
-        font-size: 14px;
-        font-weight: bold;
-      }
-
-      .detail-expression-bio{
-        font-size: 14px;
-        margin-top: 0px;
-      }
-      
     
 
-  
-    
-    
-
-
-
-
-
-
-
-
-
-
-
+  }
+}

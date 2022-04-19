@@ -1,66 +1,61 @@
-.layout-side{
+.layout-side {
 
-    .app-menu-content{
-        background-color: var(--primary-color);
-        width: var(--side-menu-size);
-        transition: width 0.35s ease-in-out;
-        border-top-right-radius: 30px;
-        border-bottom-right-radius: 30px;
+  .app-menu-content {
+    background-color: var(--primary-color);
+    width: var(--side-menu-size);
+    transition: width 0.35s ease-in-out;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
 
+    &.is-open {
+     
+      
+        .app-menu-links {
+          margin-top: 145px;
+          padding-left: 5px;
+          overflow-x: hidden;
 
-        .app-menu-links{
-            margin-top: 145px;
-            padding-left: 32px;
-            padding-right: 32px;
+          a {
+
+            width: 48px;
+            height: 48px;
+            text-align: center;
+            padding: 10px;
+            margin: 5px auto 5px 32px;
+            border-radius: 11px;
+
+            &:hover,
+            &.active {
+              background-color: var(--color-primary-hover);
+
+            }
+          }
 
         }
 
        
 
+        &.is-open {
+          width: 222px;
 
-        &.is-open{
-            width: 222px;
-            span {
-                color: #FFFFFF;
-                display: block;
-                margin-left: 10px;
-                padding: 10px;
-              }
+          
 
-              a {
+          .icon-logo {
+            margin-left: 30px;
+            transform: rotate(180deg);
+          }
 
-                display: -webkit-inline-box;
-              }
+         
 
-              .icon-logo {
-                -webkit-transform: rotate(180deg);
-                transform: rotate(180deg);
-            }
+        
 
-            .textDisable{
-
-                transition-property:width;
-                transition: width 0.35s ease-in-out;
-                visibility: visible;
-                margin-left: 10px;
-                text-align: center;
-                
-                }
-                
+        .preferences-link .icon {
+          margin-left: 15px;
+          color: #f3f6f8;
         }
 
-        .textDisable{
-            visibility: hidden;
-            color: #f3f6f8;
-            margin-right: 20px;
-            text-align: center;
-            
-        }
-
-        .preferences-link{
-
-            margin-left: 15px;
-        }
+      }
 
     }
+  }
 }
